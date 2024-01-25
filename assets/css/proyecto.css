@@ -141,10 +141,11 @@
         text-align: left;
     }
     #menu{
-        display: none;
+        height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
     }
+
     #nav:target #menu{
         height: 15em;
 
