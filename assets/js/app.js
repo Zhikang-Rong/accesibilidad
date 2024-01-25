@@ -13,7 +13,6 @@ window.onload = function(){
     let pleg = document.getElementById("pleg");
     
     pleg.addEventListener("click", function() {
-        this.classList.toggle("active");
         var content = document.getElementById('menu');
         if (content.style.display === "block") {
         content.style.display = "none";
