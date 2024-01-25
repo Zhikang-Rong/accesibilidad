@@ -140,17 +140,14 @@
         width: 100%;
         text-align: left;
     }
-    #menu_mov {
+    #menu{
         display: none;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
     }
-    #nav:target #menu_mov {
+    #nav:target #menu{
         height: 15em;
 
-    }
-    #menu_gran {
-        display: none;
     }
     #sel{
         color: red;
@@ -196,10 +193,7 @@
         #pleg{
             display: none;
         }
-        #menu_mov{
-            display: none;
-        }
-        #menu_gran{
+        #menu{
             display: block;
         }
         #juegos{
@@ -232,10 +226,7 @@
         #pleg{
             display: none;
         }
-        #menu_mov{
-            display: none;
-        }
-        #menu_gran{
+        #menu{
             display: grid;
             grid-template-columns: repeat(auto-fit,15em);
             gap: .2em;
@@ -411,18 +402,16 @@ footer a:hover{
     width: 100%;
     text-align: left;
 }
-#menu_mov {
+#menu {
     display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-#nav:target #menu_mov {
+#nav:target #menu {
     height: 15em;
 
 }
-#menu_gran {
-    display: none;
-}
+
 #sel{
     color: red;
 }
@@ -471,10 +460,7 @@ h1{
     #pleg{
         display: none;
     }
-    #menu_mov{
-        display: none;
-    }
-    #menu_gran{
+    #menu{
         display: block;
     }
     #juegos{
@@ -507,10 +493,7 @@ h1{
     #pleg{
         display: none;
     }
-    #menu_mov{
-        display: none;
-    }
-    #menu_gran{
+    #menu{
         display: grid;
         grid-template-columns: repeat(auto-fit,15em);
         gap: .2em;
