@@ -36,28 +36,28 @@
         padding: .5em;
     }
     li:hover {
-        color: #5d60fa;
+        color: white;
         text-decoration: underline;
-        text-decoration-color: #5d60fa;
+        text-decoration-color: white;
         transition: all .4s ease-in;
 
     }
     aside li:hover {
         color: rgb(93, 95, 250);
         text-decoration: underline;
-        text-decoration-color: #5d60fa;
+        text-decoration-color: white;
         background: #173144;
         transition: all .4s ease-in;
 
     }
     .aqui {
-        color: #5d60fa;
+        color: white;
         text-decoration: underline;
         font-weight: bold;
     }
     aside .aqui{
         background: #173144;
-        color: #5d60fa;
+        color: white;
         text-decoration: underline;
         font-weight: bold;
     }
@@ -309,28 +309,28 @@ li {
     padding: .5em;
 }
 li:hover {
-    color: #5d60fa;
+    color: white;
     text-decoration: underline;
-    text-decoration-color: #5d60fa;
+    text-decoration-color: white;
     transition: all .4s ease-in;
 
 }
 aside li:hover {
     color: rgb(93, 95, 250);
     text-decoration: underline;
-    text-decoration-color: #5d60fa;
+    text-decoration-color: white;
     background: #173144;
     transition: all .4s ease-in;
 
 }
 .aqui {
-    color: #5d60fa;
+    color: white;
     text-decoration: underline;
     font-weight: bold;
 }
 aside .aqui{
     background: #173144;
-    color: #5d60fa;
+    color: white;
     text-decoration: underline;
     font-weight: bold;
 }
