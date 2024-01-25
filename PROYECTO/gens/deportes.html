@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/proyecto.css">
+    <meta name="author" content="Zhikang Rong">
+    <link rel="icon" type="image/x-icon" href="../assets/img/Steam_logo.png">
+    <meta name="description" content="Juegos de deportes">
+    <script src="../assets/js/app.js" type="text/javascript"></script>
+    <title>STEAM</title>
+
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="../assets/img/Steam_logo.png" alt="steam"><a href="../index.html"><h1>STEAM</h1></a>
+
+        <nav >
+            <button id="pleg"><h2>MENU</h2></button>
+            <ul id='menu_mov'>
+                <a href='../index.html'><li>Inicio</li></a>
+                <a href="generos.html"><li>Géneros</li></a>
+                <a href="login.html"><li>Login</li></a>
+            </ul>
+            
+            <ul id='menu_gran'>
+                <a href='../index.html'><li>Inicio</li></a>
+                <a href="generos.html"><li>Géneros</li></a>
+                <a href="login.html"><li>Login</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div id="not-header">
+        <main>
+            <aside>
+                <h2>Géneros</h2>
+                <ul>
+                    <a href="shooter.html" target="_self"><li>Shooter</li></a>
+                    <a href="racing.html" target="_self"><li>Racing</li></a>
+                    <a href="deportes.html" target="_self"><li class="aqui">Deportes</li></a>
+                    <a href="rpg.html" target="_self"><li>RPG</li></a>
+                </ul>
+            </aside>
+            <article>
+                <h2>Juegos</h2>
+                <div id="juegos">
+                    <a href="juegos/fifa23.html" target="_self">
+                        <div class="juego">
+                            <img src="../assets/img/fifa23.jpg" alt="Fifa 23">
+                            <h3>Fifa 23</h3>
+                            <p class="precio">59.99€</p>
+                        </div>
+                    </a>
+                </div>
+
+            </article>
+        </main>
+        <footer>
+            <p>Correo Electrónico: zhikang.ro@gmail.com</p>
+            <p>Teléfono: +64 633187969</p><br>
+            <a href="https://www.facebook.com"><img src="../assets/img/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com"><img src="../assets/img/twitter.png" alt="twitter"></a>
+            
+            <table>
+                <form action="/enviar" method="post">
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Correo electrónico:</label></td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensaje">Mensaje:</label></td>
+                        <td><textarea id="mensaje" name="mensaje" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="politicas" type="checkbox" value="0">He leido y aceptado los <a href="#" target="_blank">Términos y Condiciones</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" id="submit" value="Enviar" ></td>
+                        <td><p id="sel"></p></td>
+                    </tr>
+                </form>
+            </table>
+            <p id="copy">Ciudad Jardin 2023 &copy Zhikang Rong</p>
+            <a href="#" target="_blank">Política de Privacidad</a>
+            <a href="#" target="_blank" rel="">Información legal</a>
+        </footer>
+    </div>
+    <script src="../assets/js/app.js">
+    </script>
+</body>
+</html>
