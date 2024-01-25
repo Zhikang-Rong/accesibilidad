@@ -52,13 +52,11 @@
     }
     .aqui {
         color: white;
-        text-decoration: underline;
         font-weight: bold;
     }
     aside .aqui{
         background: #173144;
         color: white;
-        text-decoration: underline;
         font-weight: bold;
     }
 
@@ -325,13 +323,11 @@ aside li:hover {
 }
 .aqui {
     color: white;
-    text-decoration: underline;
     font-weight: bold;
 }
 aside .aqui{
     background: #173144;
     color: white;
-    text-decoration: underline;
     font-weight: bold;
 }
 
