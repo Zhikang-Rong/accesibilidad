@@ -1,6 +1,7 @@
 @media print {
 /* general */
     body {
+        background: #001525;
         font-family: arial;
         margin: 0;
     }
@@ -264,6 +265,7 @@
     }
 }
 body {
+    background: #001525;
     font-family: arial;
     margin: 0;
 }
