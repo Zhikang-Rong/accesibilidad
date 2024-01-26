@@ -14,13 +14,15 @@ window.onload = function(){
     
     pleg.addEventListener("click", function() {
         var content = document.getElementById('menu');
-        if (content.style.display === "block") {
-            content.className = "none";
+        if (content.className === "menu2") {
+            content.className = "menu";
         } else {
-            content.className = "block";
+            content.className = "menu2";
         }
     });
-
+    if ($(window).width() < 399) {
+       document.getElementById('menu').className = "menu";
+    }
     
 
     document.getElementById("simple-cookie-consent").style.display = "none"; 
