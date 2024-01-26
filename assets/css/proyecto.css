@@ -146,10 +146,10 @@
         transition: max-height 0.2s ease-out;
     }
 
-    #nav:target #menu{
+    #menu2{
         height: 15em;
-
     }
+    
     #sel{
         color: red;
     }
@@ -408,8 +408,8 @@ footer a:hover{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-#nav:target #menu {
-    height: 15em;
+#menu2 {
+    display: block;
 
 }
 
