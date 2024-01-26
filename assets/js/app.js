@@ -15,9 +15,9 @@ window.onload = function(){
     pleg.addEventListener("click", function() {
         var content = document.getElementById('menu');
         if (content.style.display === "block") {
-        content.style.display = "none";
+            content.className = "none";
         } else {
-        content.style.display = "block";
+            content.className = "block";
         }
     });
 
