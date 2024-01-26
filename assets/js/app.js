@@ -20,7 +20,7 @@ window.onload = function(){
             content.className = "menu2";
         }
     });
-    if ($(window).width() < 399) {
+    if (window.innerWidth < 399) {
        document.getElementById('menu').className = "menu";
     }
     
