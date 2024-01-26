@@ -14,11 +14,11 @@
     <header>
         <img id="logo" src="../../assets/img/Steam_logo.png" alt="logo_steam"><a href="../../index.html"><h1>STEAM</h1></a>
         <nav >
-            <button id="pleg"><h2>MENU</h2></button>
+            <h2><button id="pleg">MENU</button></h2>
             <ul id='menu' class='menu'>
-                <a href='../../index.html'><li>Inicio</li></a>
-                <a href="../generos.html"><li>Géneros</li></a>
-                <a href="../login.html"><li>Login</li></a>
+                <li><a href='../../index.html'>Inicio</a></li>
+                <li><a href="../generos.html">Géneros</a></li>
+                <li><a href="../login.html">Login</a></li>
             </ul>
 
         </nav>
@@ -52,8 +52,8 @@
             <a href="https://www.facebook.com"><img src="../../assets/img/facebook.png" alt="facebook"></a>
             <a href="https://twitter.com"><img src="../../assets/img/twitter.png" alt="twitter"></a>
             
-            <table>
-                <form action="/enviar" method="post">
+            <form action="/enviar" method="post">
+                <table>
                     <tr>
                         <td><label for="nombre">Nombre:</label></td>
                         <td><input type="text" id="nombre" name="nombre"></td>
@@ -67,15 +67,16 @@
                         <td><textarea id="mensaje" name="mensaje" rows="4"></textarea></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input id="politicas" type="checkbox" value="0"><label for="politicas">He leido y aceptado los <a href="#" target="_blank">Términos y Condiciones</a></td></label>
+                        <td colspan="2"><input id="politicas" type="checkbox" value="0"><label for="politicas">He leido y aceptado los <a href="#" target="_blank">Términos y Condiciones</a></label></td>
                     </tr>
                     <tr>
                         <td><input type="submit" id="submit" value="Enviar" ></td>
                         <td><p id="sel"></p></td>
                     </tr>
-                </form>
-            </table>
-            <p id="copy">Ciudad Jardin 2023 &copy Zhikang Rong</p>
+                </table>
+            </form>
+            
+            <p id="copy">Ciudad Jardin 2023 &copy; Zhikang Rong</p>
             <a href="#" target="_blank">Política de Privacidad</a>
             <a href="#" target="_blank" rel="">Información legal</a>
         </footer>
