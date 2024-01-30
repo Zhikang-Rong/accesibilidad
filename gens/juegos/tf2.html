@@ -53,27 +53,19 @@
             <a href="https://twitter.com"><img src="../../assets/img/twitter.png" alt="twitter"></a>
             
             <form action="/enviar" method="post">
-                <table>
-                    <tr>
-                        <td><label for="nombre">Nombre:</label></td>
-                        <td><input type="text" id="nombre" name="nombre"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="email">Correo electrónico:</label></td>
-                        <td><input type="email" id="email" name="email"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="mensaje">Mensaje:</label></td>
-                        <td><textarea id="mensaje" name="mensaje" rows="4"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input id="politicas" type="checkbox" value="0"><label for="politicas">He leido y aceptado los <a href="#" target="_blank">Términos y Condiciones</a></label></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" id="submit" value="Enviar" ></td>
-                        <td><p id="sel"></p></td>
-                    </tr>
-                </table>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" aria-label="Nombre">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-label="Email">
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" aria-label="Mensaje"></textarea>
+                    <br>
+                    <input id="politicas" type="checkbox" value="0"><label for="politicas">He leido y aceptado los <a href="#" target="_blank">Términos y Condiciones</a></label>
+                    <br>
+                    <input type="submit" id="submit" value="Enviar" >
+                    <p id="sel"></p>
             </form>
             
             <p id="copy">Ciudad Jardin 2023 &copy; Zhikang Rong</p>
