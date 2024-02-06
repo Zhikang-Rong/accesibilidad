@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://class-steam-project.netlify.app/</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/generos</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/login</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/shooter</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/racing</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/deportes</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/rpg</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/tf2</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/l4d2</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/titanfall2</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/dirt2</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/fnv</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://class-steam-project.netlify.app/gens/juegos/fifa23</loc>
+  <lastmod>2024-02-06T07:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
