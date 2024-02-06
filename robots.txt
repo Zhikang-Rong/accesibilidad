@@ -1,4 +1,7 @@
 User-agent: *
 Disallow: /assets/
 
+User-agent: *
+Allow: /
+
 Sitemap: https://class-steam-project.netlify.app/sitemap.xml
