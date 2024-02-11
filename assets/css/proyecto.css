@@ -91,7 +91,7 @@ footer img{max-width:3em}
 #pleg,#simple-cookie-consent button.cookie-consent-deny{padding:.25em}
 #juegos{gap:.5em}
 #simple-cookie-consent .cookie-consent-selection,.precio{text-align:right}
-#pleg{background:#163042;cursor:pointer;text-align:left,font-size:200%}
+#pleg{background:#163042;cursor:pointer;text-align:left;font-size:200%}
 .menu{overflow:hidden;transition:max-height .2s ease-out}
 .menu2{display:block}#sel{color:red}#logo{width:2.5em}
 .logo{animation-name:flips;animation-duration:1s;animation-iteration-count:1;animation-timing-function:linear}
